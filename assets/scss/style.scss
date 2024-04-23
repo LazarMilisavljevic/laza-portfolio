@@ -252,15 +252,15 @@ header{
 		justify-content: space-evenly;
 		text-align: center;
 		@media(max-width:780px){
-            display: block;
+			display: block;
         }
 	}
 	    .skill{
-			width: 30%;
-			@media(max-width:780px){
-                width: 60%;
-                margin-left: 20%;
-                margin-top: 20px;
+		width: 30%;
+		@media(max-width:780px){
+                    width: 60%;
+                    margin-left: 20%;
+                    margin-top: 20px;
             }
             @media(max-width:583px){
                 width: 80%;
@@ -346,7 +346,7 @@ header{
             margin-top: 150px;
         }
         @media (max-width:920px) {
-			width: 30%;
+            width: 30%;
             float: none;
             margin-left: 40%;
             margin-top: 2%;
