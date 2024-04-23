@@ -283,6 +283,16 @@ header a:hover {
   margin-top: 60px;
   height: 600px;
 }
+@media (max-width: 780px) {
+  #skills {
+    height: 100px;
+  }
+}
+@media (max-width: 583px) {
+  #skills {
+    margin-top: 20px;
+  }
+}
 #skills h2 {
   text-align: center;
   font-size: 50px;
@@ -293,6 +303,11 @@ header a:hover {
   justify-content: space-evenly;
   text-align: center;
 }
+@media (max-width: 780px) {
+  #skills .container {
+    display: block;
+  }
+}
 #skills .skill {
   width: 30%;
   margin-top: 50px;
@@ -301,15 +316,30 @@ header a:hover {
   background-color: #595454;
   outline: 1;
   border-radius: 17px;
+  color: white;
   line-height: 30px;
   text-align: center;
   font-weight: 400;
   box-shadow: black 0px 1px 2px 0px, black 0px 2px 6px 2px;
 }
+@media (max-width: 780px) {
+  #skills .skill {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 583px) {
+  #skills .skill {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
 #skills .skill .first-row {
   font-size: 23px;
   font-weight: 500;
   margin-bottom: 15px;
+  color: black;
 }
 @media (max-width: 450px) {
   #skills .skill .first-row {
@@ -318,6 +348,7 @@ header a:hover {
 }
 #skills .skill i {
   font-size: 60px;
+  color: black;
 }
 
 #about-me {
@@ -424,9 +455,9 @@ header a:hover {
   line-height: 50px;
   border-radius: 10px;
   font-size: 18px;
-  color: #000;
+  color: white;
   text-align: center;
-  background-color: greenyellow;
+  background-color: #3e4547;
 }
 @media (max-width: 850px) {
   #contact .infon .info {
