@@ -230,6 +230,7 @@ header a:hover {
 }
 #projects .container .project1 img:hover {
   transform: translateY(-15px);
+  cursor: pointer;
 }
 #projects .container .project1 p {
   text-align: center;
@@ -263,6 +264,7 @@ header a:hover {
 }
 #projects .container .project2 img:hover {
   transform: translateY(-15px);
+  cursor: pointer;
 }
 #projects .container .project2 p {
   padding-bottom: 50px;
